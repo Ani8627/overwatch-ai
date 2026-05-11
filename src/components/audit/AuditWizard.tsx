@@ -211,8 +211,11 @@ const progress = ((currentStep + 1) / steps.length) * 100;
     setIsGenerating(true);
 
     setTimeout(() => {
-      window.location.href = "/results/demo";
-    }, 2500);
+const estimatedSavings =
+  Number(formData.spend || 0) * 12 * 0.35;
+
+window.location.href =
+  `/results/demo?savings=${estimatedSavings}`;    }, 2500);
   }}
   className="rounded-2xl bg-white px-6 py-3 font-medium text-black"
 >

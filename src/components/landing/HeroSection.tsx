@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export function HeroSection() {
   return (
     <section className="min-h-screen bg-black text-white flex items-center">

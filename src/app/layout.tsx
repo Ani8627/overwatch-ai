@@ -1,9 +1,8 @@
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Overwatch AI",
-  description: "AI spend optimization platform",
+  description: "AI Spend Optimization Platform",
 };
 
 export default function RootLayout({
@@ -13,8 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-<body className="animate-in fade-in duration-700">
-      </body>
-        </html>
+      <body>{children}</body>
+    </html>
   );
 }

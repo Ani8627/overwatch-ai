@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Overwatch AI
+https://overwatch-n2m756tfr-ani8627s-projects.vercel.app/
 
-## Getting Started
+A premium AI spend optimization platform built to help modern teams analyze, manage, and optimize their AI tooling infrastructure.
 
-First, run the development server:
+Overwatch AI provides a clean SaaS-style experience where teams can:
+- audit their AI stack
+- identify redundant subscriptions
+- estimate optimization opportunities
+- benchmark AI spending
+- generate actionable recommendations
+
+---
+
+# Preview
+
+## Landing Page
+Modern SaaS landing page with:
+- premium UI
+- animated sections
+- feature highlights
+- testimonials
+- conversion-focused CTA
+
+## Audit Wizard
+Interactive multi-step onboarding flow for:
+- company information
+- AI tool selection
+- monthly spend analysis
+- usage patterns
+- review and audit generation
+
+## Results Dashboard
+AI-generated analytics dashboard featuring:
+- estimated savings
+- benchmark insights
+- optimization recommendations
+- spend breakdown
+- infrastructure analysis
+
+---
+
+# Features
+
+- Modern SaaS UI/UX
+- Responsive dark-themed design
+- Multi-step audit workflow
+- Interactive tool selection
+- AI audit generation simulation
+- Spend optimization insights
+- Recommendation engine UI
+- Benchmark comparison section
+- Premium animated interface
+- Component-based scalable architecture
+- Next.js App Router architecture
+
+---
+
+# Tech Stack
+
+## Frontend
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+
+## UI & Animation
+- Framer Motion
+- Custom glassmorphism styling
+- Responsive layouts
+
+## Development Tools
+- Vercel
+- Git
+- VS Code
+
+---
+
+# Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+│
+├── app/
+│   ├── audit/
+│   ├── results/
+│   └── page.tsx
+│
+├── components/
+│   ├── landing/
+│   ├── audit/
+│   ├── results/
+│   └── layout/
+│
+└── app/globals.css

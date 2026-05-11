@@ -1,6 +1,10 @@
 "use client";
 
-export function SavingsHero() {
+export function SavingsHero({
+  savings,
+}: {
+  savings: string;
+}) {
   return (
     <section className="relative overflow-hidden rounded-[40px] border border-white/10 bg-linear-to-br from-blue-500/10 via-white/3 to-purple-500/10 p-10">
       <div className="absolute inset-0 bg-black/40 backdrop-blur-3xl" />
@@ -13,7 +17,7 @@ export function SavingsHero() {
   Overwatch AI Report • Acme Labs
 </p>
         <h1 className="mt-6 text-6xl font-bold tracking-tight md:text-8xl">
-          $18,400
+         ${Number(savings).toLocaleString()}
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-400">
